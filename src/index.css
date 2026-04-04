@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kod-bg: #F7F6F3;
+  --color-kod-text: #111111;
+  --color-kod-indigo: hsl(245, 58%, 51%);
+  --color-kod-red: #8B0000;
+  --color-kod-success: #6E8E59;
+  --color-kod-warning: #D97706;
+
+  --font-serif: 'PT Serif', Georgia, serif;
+  --font-sans: 'Inter', 'Segoe UI', sans-serif;
+  
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-5: 40px;
+  --spacing-8: 64px;
+}
+
+@layer base {
+  body {
+    @apply bg-kod-bg text-kod-text font-sans antialiased;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif leading-tight;
+  }
+}
+
+@layer utilities {
+  .text-block {
+    @apply max-w-[720px];
+  }
+  .transit-fast {
+    @apply transition-all duration-150 ease-in-out;
+  }
+  .kod-card {
+    @apply bg-white border border-gray-200 rounded-lg p-3 sm:p-5 transition-all duration-150 ease-in-out;
+    box-shadow: none !important;
+  }
+  .kod-btn-primary {
+    @apply bg-kod-red text-white py-2 px-5 rounded-md font-medium transition-all duration-150 ease-in-out hover:opacity-90;
+  }
+  .kod-btn-secondary {
+    @apply border border-kod-red text-kod-red py-2 px-5 rounded-md font-medium transition-all duration-150 ease-in-out hover:bg-kod-red hover:text-white bg-transparent;
+  }
+  .kod-input {
+    @apply border border-gray-300 rounded-md p-2 w-full transition-all duration-150 ease-in-out focus:outline-none focus:border-kod-indigo ring-0 focus:ring-0;
+    box-shadow: none !important;
+  }
+}
