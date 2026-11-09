@@ -118,37 +118,37 @@ export function Footer() {
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link href="/" className="hover:text-sky-400 transition-colors">
+                <Link href="/" className="hover:text-yellow-400 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/products" className="hover:text-sky-400 transition-colors">
+                <Link href="/products" className="hover:text-yellow-400 transition-colors">
                   Products Catalogue
                 </Link>
               </li>
               <li>
-                <Link href="/quality" className="hover:text-sky-400 transition-colors">
+                <Link href="/quality" className="hover:text-yellow-400 transition-colors">
                   Quality Policy &amp; Objectives
                 </Link>
               </li>
               <li>
-                <Link href="/customers" className="hover:text-sky-400 transition-colors">
+                <Link href="/customers" className="hover:text-yellow-400 transition-colors">
                   Our Customers
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-sky-400 transition-colors">
+                <Link href="/about" className="hover:text-yellow-400 transition-colors">
                   About Hi-Volt
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-sky-400 transition-colors">
+                <Link href="/contact" className="hover:text-yellow-400 transition-colors">
                   Contact &amp; Enquiry
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-sky-400 transition-colors">
+                <Link href="/privacy" className="hover:text-yellow-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
@@ -165,7 +165,7 @@ export function Footer() {
                 <li key={cat}>
                   <Link
                     href={`/products?category=${encodeURIComponent(cat)}`}
-                    className="hover:text-sky-400 transition-colors"
+                    className="hover:text-yellow-400 transition-colors"
                   >
                     {cat}
                   </Link>
