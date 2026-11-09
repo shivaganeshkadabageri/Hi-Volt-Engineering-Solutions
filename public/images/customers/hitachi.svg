@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" fill="none">
+  <!-- Hitachi Energy Brand Vector Representation -->
+  <rect width="320" height="100" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(30, 25)">
+    <!-- Red line bar -->
+    <path d="M0 45 L260 45" stroke="#E60012" stroke-width="4" stroke-linecap="round"/>
+    <!-- HITACHI typography -->
+    <text x="5" y="32" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="4" fill="#E60012">
+      HITACHI
+    </text>
+  </g>
+</svg>
