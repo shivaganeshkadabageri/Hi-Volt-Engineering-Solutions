@@ -12,32 +12,54 @@ import {
   companyData,
   aboutTimeline,
   manufacturedEquipmentList,
+  authenticAboutContent,
 } from '@/content/company';
 
 export const metadata: Metadata = {
-  title: 'About Us | Three Decades of High Voltage Engineering Heritage',
+  title: 'About | Hi-Volt Engineering Solutions',
   description:
-    'Hi-Volt Engineering Solutions was established in Bangalore in October 2017 by veteran specialists following the closure of WS Test Systems. We design and manufacture HV test equipment strictly conforming to IEC 60060 and IS 2071.',
+    'Hi-VOLT ENGINEERING SOLUTIONS is a reputed Manufacturer and Supplier of Electrical Testing & Measuring Equipment, established in 2017 at Bangalore, India conforming to IEC 60060 and IS 2071.',
 };
 
 export default function AboutPage() {
   return (
     <div className="py-12 sm:py-20 bg-slate-50 dark:bg-[#0B132B]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        {/* Intro Hero */}
-        <div className="max-w-3xl space-y-4">
+        {/* Intro Hero with Authentic About Content */}
+        <div className="space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 dark:bg-sky-950/80 text-sky-800 dark:text-sky-300 text-xs font-semibold">
             <History className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400" />
-            <span>Bangalore, India &bull; Established October 2017</span>
+            <span>Bangalore, India &bull; Established 2017</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white leading-tight">
-            About Hi-Volt Engineering Solutions
+            About
           </h1>
 
-          <p className="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
-            Hi-VOLT ENGINEERING SOLUTIONS is a reputed manufacturer and supplier of electrical testing and measuring equipment. Products are designed to be energy efficient and easy to work with, with skilled workmanship for long-lasting performance and accuracy in line with national and international standards, available in a range of variants at reasonable prices.
-          </p>
+          <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 sm:p-10 shadow-sm space-y-6">
+            <p className="text-base sm:text-lg text-slate-700 dark:text-slate-200 leading-relaxed font-normal">
+              {authenticAboutContent.paragraphs[0]}
+            </p>
+
+            <p className="text-base sm:text-lg text-slate-700 dark:text-slate-200 leading-relaxed font-normal pt-6 border-t border-slate-200 dark:border-slate-800">
+              {authenticAboutContent.paragraphs[1]}
+            </p>
+
+            <div className="pt-2 flex flex-wrap gap-2 text-xs">
+              <span className="px-3 py-1.5 rounded-md bg-sky-50 dark:bg-sky-950/80 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 font-mono font-bold">
+                IEC 60060 Conformance
+              </span>
+              <span className="px-3 py-1.5 rounded-md bg-amber-50 dark:bg-amber-950/80 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 font-mono font-bold">
+                IS 2071 Conformance
+              </span>
+              <span className="px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 font-semibold">
+                Energy Efficient &amp; Easy to Work With
+              </span>
+              <span className="px-3 py-1.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 font-semibold">
+                Aesthetic &amp; Skilled Workmanship
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* Mission Statement Banner */}
@@ -45,7 +67,7 @@ export default function AboutPage() {
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-sky-400">
               <Compass className="w-4 h-4" />
-              <span>Our Corporate Mission</span>
+              <span>Our Corporate Commitment</span>
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-snug">

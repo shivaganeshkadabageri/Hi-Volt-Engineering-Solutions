@@ -93,7 +93,7 @@ export function Footer() {
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Manufacturer and supplier of high voltage electrical testing and measuring equipment. Serving educational institutions, power equipment manufacturers, and utilities across India and globally.
+              Hi-VOLT ENGINEERING SOLUTIONS is a reputed Manufacturer and Supplier of Electrical Testing &amp; Measuring Equipment. Conforming to IEC 60060 and IS 2071 standards.
             </p>
             <div className="pt-2 flex flex-wrap gap-2 text-xs">
               <span className="px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-sky-400 font-mono">

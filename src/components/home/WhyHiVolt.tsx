@@ -15,27 +15,27 @@ export function WhyHiVolt() {
   const realClaims = [
     {
       icon: <ShieldCheck className="w-6 h-6 text-sky-500" />,
-      title: 'Built Strictly to IEC 60060 & IS 2071',
+      title: 'Conforming to IEC 60060 & IS 2071',
       description:
-        'Every high voltage construction kit, impulse generator, and AC/DC test set is engineered to meet or exceed national and international high-voltage test techniques standards.',
+        'Strictly conforms to relevant International Standard IEC 60060 and Indian Standard IS 2071 for high voltage test & measuring equipment.',
     },
     {
       icon: <Zap className="w-6 h-6 text-amber-500" />,
       title: 'Energy Efficient & Easy to Work With',
       description:
-        'Designed with optimized magnetic circuits, low partial discharge baselines, ergonomic operator consoles, and student-safe quick-assembly interlocks.',
+        'Our products are designed to be energy efficient and easy to work with, delivering operational convenience and long-term reliability.',
     },
     {
       icon: <Wrench className="w-6 h-6 text-blue-500" />,
-      title: 'Skilled High-Voltage Workmanship',
+      title: 'Aesthetic & Skilled Workmanship',
       description:
-        'Long-lasting performance, electrical insulation endurance, and precision mechanical alignment crafted by technicians with decades of high-voltage manufacturing expertise.',
+        'Known for aesthetic & skilled workmanship for long lasting performance & efficiency with accuracy in line with respective National & International Standards.',
     },
     {
       icon: <Coins className="w-6 h-6 text-emerald-500" />,
-      title: 'Competitive Direct-Manufacturer Pricing',
+      title: 'Range of Variants at Reasonable Price',
       description:
-        'Available in a flexible range of variants at reasonable, transparent manufacturer pricing without middleman markups for laboratories and industries worldwide.',
+        'Range of different variants are available to suit every requirement at reasonable price commensurate to best performing products leading the market.',
     },
   ];
 

@@ -51,6 +51,9 @@ export interface CompanyInfo {
   legalName: string;
   tagline: string;
   establishedYear: number;
+  aboutText?: {
+    paragraphs: string[];
+  };
   location: {
     address: string;
     street: string;

@@ -1,10 +1,18 @@
 import { CompanyInfo } from '@/lib/types';
 
+export const authenticAboutContent = {
+  paragraphs: [
+    'Hi-VOLT ENGINEERING SOLUTIONS is a reputed Manufacturer and Supplier of Electrical Testing & Measuring Equipment such as High Voltage Construction Kit, Impulse Voltage/Current Generator, High Voltage AC Tests Sets, High Voltage DC Test Sets, Partial Discharge Meters, Measuring/Coupling Capacitors, SF6 Filled standard Capacitors, Measuring Spark Gaps, Impulse Multiple Chopping Gaps, Compensating Reactors, Impulse Resistors & Inductors. Our products are designed to be energy efficient and easy to work with. They are known for aesthetic & skilled workmanship for long lasting performance & efficiency with accuracy in line with respective National & International Standards. Range of different variants are available to suit every requirement at reasonable price commensurate to best performing products leading the market.',
+    'Established in 2017 at Bangalore, India is committed to make available high voltage test and measuring equipment of International Standards at competitive prices to various segment of users in India and global customers. Strictly conforms to relevant International Standard IEC 60060 and Indian Standard IS 2071 for high voltage test & measuring equipment.',
+  ],
+};
+
 export const companyData: CompanyInfo = {
   name: 'Hi-Volt Engineering Solutions',
   legalName: 'Hi-Volt Engineering Solutions',
   tagline: 'Precision High Voltage Test & Measuring Equipment',
   establishedYear: 2017,
+  aboutText: authenticAboutContent,
   location: {
     address:
       'No.66, Byaraveshwara Industrial Estate, 4th Main, 3rd Cross, Vinayaka Layout, Andrahalli Main Road, Near Chetan Circle, Peenya 2nd Stage, Bangalore – 560 091, Karnataka, India',
@@ -26,7 +34,7 @@ export const companyData: CompanyInfo = {
     businessHours: 'Monday – Saturday: 9:00 AM – 6:30 PM IST',
   },
   mission:
-    'To make high voltage test and measuring equipment of international standards available at competitive prices to users across India and worldwide, strictly conforming to IEC 60060 and IS 2071.',
+    'Established in 2017 at Bangalore, India is committed to make available high voltage test and measuring equipment of International Standards at competitive prices to various segment of users in India and global customers. Strictly conforms to relevant International Standard IEC 60060 and Indian Standard IS 2071 for high voltage test & measuring equipment.',
   standards: ['IEC 60060', 'IS 2071', 'ASTM D3300', 'IEC 60270'],
   legacyHeritage: {
     wsTestSystemsNoticeDate: '30 June 2017',
@@ -71,15 +79,15 @@ export const aboutTimeline = [
 export const manufacturedEquipmentList = [
   'High Voltage Construction Kit',
   'Impulse Voltage/Current Generator',
-  'High Voltage AC Test Sets',
+  'High Voltage AC Tests Sets',
   'High Voltage DC Test Sets',
   'Partial Discharge Meters',
-  'Measuring / Coupling Capacitors',
-  'SF6 Filled Standard Capacitors',
+  'Measuring/Coupling Capacitors',
+  'SF6 Filled standard Capacitors',
   'Measuring Spark Gaps',
   'Impulse Multiple Chopping Gaps',
   'Compensating Reactors',
-  'Impulse Resistors and Inductors',
+  'Impulse Resistors & Inductors',
   'Oil Dielectric Test Cells',
   'High Current Measuring Shunts',
 ];
