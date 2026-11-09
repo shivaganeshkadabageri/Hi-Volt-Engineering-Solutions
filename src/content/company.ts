@@ -15,17 +15,22 @@ export const companyData: CompanyInfo = {
   aboutText: authenticAboutContent,
   location: {
     address:
-      'No.66, Byaraveshwara Industrial Estate, 4th Main, 3rd Cross, Vinayaka Layout, Andrahalli Main Road, Near Chetan Circle, Peenya 2nd Stage, Bangalore – 560 091, Karnataka, India',
+      'Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru – 560058, Karnataka, India',
+    addressLines: [
+      'Sy No. 38, No. 15, 7th A Cross, Balaji Nagar,',
+      'Thigalarapalya Main Road,',
+      'Peenya Industrial Area, Bengaluru - 560058',
+    ],
     street:
-      'No.66, Byaraveshwara Industrial Estate, 4th Main, 3rd Cross, Vinayaka Layout, Andrahalli Main Road, Near Chetan Circle',
-    industrialArea: 'Peenya 2nd Stage',
-    city: 'Bangalore',
+      'Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road',
+    industrialArea: 'Peenya Industrial Area',
+    city: 'Bengaluru',
     state: 'Karnataka',
-    pincode: '560 091',
+    pincode: '560058',
     country: 'India',
     // Accurate Google Maps query coordinate embed
     mapQuery:
-      'Hi-Volt Engineering Solutions, Peenya 2nd Stage, Bangalore, Karnataka 560091',
+      'Hi-Volt Engineering Solutions, Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru 560058',
   },
   contact: {
     phones: ['+91 99860 24480', '+91 98800 89509'],

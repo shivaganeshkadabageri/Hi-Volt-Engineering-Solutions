@@ -215,7 +215,7 @@ export function Header() {
                 <ChevronRight className="w-4 h-4" />
               </Link>
               <div className="text-xs text-slate-500 dark:text-slate-400 text-center space-y-1 pt-2">
-                <p>Peenya 2nd Stage, Bangalore</p>
+                <p>Peenya Industrial Area, Bengaluru</p>
                 <p>+91 99860 24480</p>
               </div>
             </div>

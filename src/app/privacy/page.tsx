@@ -88,7 +88,7 @@ export default function PrivacyPage() {
               <p>Hi-Volt Engineering Solutions</p>
               <p>Email: {companyData.contact.email}</p>
               <p>Phone: {companyData.contact.phones[0]}</p>
-              <p>Address: Peenya 2nd Stage, Bangalore – 560 091, India</p>
+              <p>Address: Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru - 560058, India</p>
             </div>
           </section>
         </div>

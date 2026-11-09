@@ -6,7 +6,7 @@ import { FeaturedSystems } from '@/components/home/FeaturedSystems';
 import { WhyHiVolt } from '@/components/home/WhyHiVolt';
 import { CustomerStrip } from '@/components/home/CustomerStrip';
 import { ContactForm } from '@/components/contact/ContactForm';
-import { Phone, Mail, Clock } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 import { companyData } from '@/content/company';
 
 export default function HomePage() {
@@ -50,6 +50,16 @@ export default function HomePage() {
               </p>
 
               <div className="space-y-4 pt-2">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+                  <MapPin className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5" />
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-900 dark:text-white">Manufacturing Works &amp; Office</h4>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 leading-relaxed">
+                      Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru &ndash; 560058
+                    </p>
+                  </div>
+                </div>
+
                 <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
                   <Phone className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5" />
                   <div>

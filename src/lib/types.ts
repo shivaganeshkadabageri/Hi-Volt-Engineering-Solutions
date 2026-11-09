@@ -56,6 +56,7 @@ export interface CompanyInfo {
   };
   location: {
     address: string;
+    addressLines?: string[];
     street: string;
     industrialArea: string;
     city: string;

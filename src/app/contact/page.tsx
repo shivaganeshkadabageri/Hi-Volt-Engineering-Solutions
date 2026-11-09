@@ -15,12 +15,12 @@ import { companyData } from '@/content/company';
 export const metadata: Metadata = {
   title: 'Contact Us & Request a Quote | Hi-Volt Engineering Solutions',
   description:
-    'Contact Hi-Volt Engineering Solutions in Peenya 2nd Stage, Bangalore. Phone: +91 99860 24480 / +91 98800 89509, email: marketing@hivoltengineeringsolutions.com. Request technical quotations and product datasheets.',
+    'Contact Hi-Volt Engineering Solutions in Peenya Industrial Area, Bengaluru. Phone: +91 99860 24480 / +91 98800 89509, email: marketing@hivoltengineeringsolutions.com. Request technical quotations and product datasheets.',
 };
 
 export default function ContactPage() {
   const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(
-    'No.66, Byaraveshwara Industrial Estate, 4th Main, 3rd Cross, Vinayaka Layout, Peenya 2nd Stage, Bangalore 560091'
+    'Hi-Volt Engineering Solutions, Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru 560058'
   )}&output=embed`;
 
   return (
@@ -30,7 +30,7 @@ export default function ContactPage() {
         <div className="max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 dark:bg-sky-950/80 text-sky-800 dark:text-sky-300 text-xs font-semibold">
             <Building className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400" />
-            <span>Peenya 2nd Stage, Bangalore Manufacturing Facility</span>
+            <span>Peenya Industrial Area, Bengaluru Manufacturing Facility</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white leading-tight">
@@ -71,7 +71,12 @@ export default function ContactPage() {
               {/* Physical Address */}
               <div className="flex items-start gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                 <MapPin className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5" />
-                <span>{companyData.location.address}</span>
+                <div className="space-y-0.5">
+                  <p className="font-semibold text-slate-900 dark:text-white">Hi-Volt Engineering Solutions</p>
+                  <p>Sy No. 38, No. 15, 7th A Cross, Balaji Nagar,</p>
+                  <p>Thigalarapalya Main Road,</p>
+                  <p>Peenya Industrial Area, Bengaluru &ndash; 560058</p>
+                </div>
               </div>
 
               {/* Tap to Call Numbers */}
@@ -153,11 +158,11 @@ export default function ContactPage() {
                 Manufacturing Works Location
               </h2>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                Peenya 2nd Stage, Bangalore &ndash; Premier Industrial Testing Cluster
+                Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru &ndash; 560058
               </p>
             </div>
             <a
-              href="https://maps.google.com/?q=Hi-Volt+Engineering+Solutions+Peenya+Bangalore"
+              href={`https://maps.google.com/?q=${encodeURIComponent('Hi-Volt Engineering Solutions, Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru 560058')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-600 dark:text-sky-400 hover:underline"
@@ -169,7 +174,7 @@ export default function ContactPage() {
 
           <div className="w-full h-80 sm:h-96 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800">
             <iframe
-              title="Hi-Volt Engineering Solutions Peenya Bangalore Location Map"
+              title="Hi-Volt Engineering Solutions Peenya Industrial Area Bengaluru Location Map"
               src={mapEmbedUrl}
               width="100%"
               height="100%"
